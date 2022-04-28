@@ -1,0 +1,251 @@
+# Copyright (C) 2021 triopsi
+# This file is distributed under the same license as the TH Promo Panels plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: TH Promo Panels 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/thpl\n"
+"POT-Creation-Date: 2022-04-28T07:52:49+02:00\n"
+"PO-Revision-Date: 2022-04-28 07:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: thpropa\n"
+
+#. Plugin Name of the plugin
+#: inc/thpl-types.php:55 inc/thpl-types.php:57 inc/thpl-types.php:58
+msgid "TH Product List"
+msgstr "TH Produkt Liste"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://triopsi-hosting.com"
+msgstr "https://triopsi-hosting.com"
+
+#. Description of the plugin
+msgid "A simple plugin to present products individually in a product table."
+msgstr ""
+"Ein einfaches Plugin um Produkte individuell in einer Produkttabelle "
+"darzustellen."
+
+#. Author of the plugin
+msgid "triopsi"
+msgstr "triopsi"
+
+#: inc/thpl-duplicate-functions.php:60
+msgid "Duplicate this product"
+msgstr "Dupliziere dieses Produkt"
+
+#: inc/thpl-duplicate-functions.php:60
+msgid "Duplicate"
+msgstr "Klonen"
+
+#: inc/thpl-duplicate-functions.php:178
+msgid "Post copy created."
+msgstr "Beitrags Kopie erstellt."
+
+#: inc/thpl-post-metabox.php:39
+msgid "Details"
+msgstr "Details"
+
+#: inc/thpl-post-metabox.php:69 inc/thpl-types.php:213
+msgid "Price"
+msgstr "Preis"
+
+#: inc/thpl-post-metabox.php:86
+msgid "Price Suffix"
+msgstr "Preis Suffix"
+
+#: inc/thpl-post-metabox.php:90
+msgid "30 days"
+msgstr "30 Tage"
+
+#: inc/thpl-post-metabox.php:102 inc/thpl-post-metabox.php:109
+#: inc/thpl-shortcode.php:169
+msgid "Order"
+msgstr "Bestellen"
+
+#: inc/thpl-post-metabox.php:105
+msgid "Button Text"
+msgstr "Button Text"
+
+#: inc/thpl-post-metabox.php:122
+msgid "Order Url"
+msgstr "Bestell URL"
+
+#: inc/thpl-post-metabox.php:126
+msgid "https://"
+msgstr "https://"
+
+#: inc/thpl-post-metabox.php:141
+msgid "Atributes"
+msgstr "Attribute"
+
+#: inc/thpl-post-metabox.php:156
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/thpl-post-metabox.php:160
+msgid "Atrribute : Value |"
+msgstr "Atrribute : Value |"
+
+#: inc/thpl-post-metabox.php:166
+msgid "Required fields"
+msgstr "Benötigte Felder"
+
+#: inc/thpl-shortcode.php:161
+msgid "30 Days"
+msgstr "30 Tage"
+
+#: inc/thpl-types.php:56
+msgid "Product"
+msgstr "Produkt"
+
+#: inc/thpl-types.php:59 inc/thpl-types.php:60
+msgid "Add New Product"
+msgstr "Neues Produkt hinzufügen"
+
+#: inc/thpl-types.php:61
+msgid "New Product"
+msgstr "Neues Produkt"
+
+#: inc/thpl-types.php:62
+msgid "Edit Product"
+msgstr "Produkt bearbeiten"
+
+#: inc/thpl-types.php:63
+msgid "View Product"
+msgstr "Produkt anschauen"
+
+#: inc/thpl-types.php:64
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#: inc/thpl-types.php:65
+msgid "Search Products"
+msgstr "Suche Produkt"
+
+#: inc/thpl-types.php:66
+msgid "No Products found."
+msgstr "Kein Produkte gefunden."
+
+#: inc/thpl-types.php:67
+msgid "No Products found in Trash."
+msgstr "Keine Produkte im Papierkorb gefunden."
+
+#: inc/thpl-types.php:97 inc/thpl-types.php:111
+msgid "Product Categories"
+msgstr "Produkt Kategorien"
+
+#: inc/thpl-types.php:98
+msgid "Product Category"
+msgstr "Produkt Kategorie"
+
+#: inc/thpl-types.php:99
+msgid "Search Product categories"
+msgstr "Suche Produkt Kategorien"
+
+#: inc/thpl-types.php:100
+msgid "All Product categories"
+msgstr "Alle Produkt Kategorien"
+
+#: inc/thpl-types.php:101
+msgid "Parent Product Category"
+msgstr "Eltern Produkt Kategorie"
+
+#: inc/thpl-types.php:102
+msgid "Parent Product Category:"
+msgstr "Eltern Produkt Kategorie:"
+
+#: inc/thpl-types.php:103
+msgid "Edit Product Category"
+msgstr "Produkt Kategorie bearbeiten"
+
+#: inc/thpl-types.php:104
+msgid "Update Product Category"
+msgstr "Produkt Kategorie bearbeiten"
+
+#: inc/thpl-types.php:105
+msgid "Add New Product Category"
+msgstr "Neue Produkt Kategorie hinzufügen"
+
+#: inc/thpl-types.php:106
+msgid "New Product Category Name"
+msgstr "Neuer Produkt Kategorie Namen"
+
+#: inc/thpl-types.php:107
+msgid "Separate Product categories with commas"
+msgstr "Produkt Kategorien durch Kommas trennen"
+
+#: inc/thpl-types.php:108
+msgid "Add or remove Product category"
+msgstr "Produkt Kategorie hinzufügen oder entfernen"
+
+#: inc/thpl-types.php:109
+msgid "Choose from the most used Product categories"
+msgstr "Wählen Sie aus den am häufigsten verwendeten Produkt Kategorien"
+
+#: inc/thpl-types.php:110
+msgid "No Product category found."
+msgstr "Keine Produkt Kategorie gefunden."
+
+#: inc/thpl-types.php:139 inc/thpl-types.php:140
+msgid "Product updated."
+msgstr "Produktentwurf aktualisiert."
+
+#: inc/thpl-types.php:141
+msgid "Product published."
+msgstr "Produkt veröffentlicht."
+
+#: inc/thpl-types.php:142
+msgid "Product saved."
+msgstr "Produkt gespeichert."
+
+#: inc/thpl-types.php:143
+msgid "Product draft updated."
+msgstr "Produktentwurf aktualisiert."
+
+#: inc/thpl-types.php:199 inc/thpl-types.php:213
+msgid "Shortcode"
+msgstr "Schortcode"
+
+#: inc/thpl-types.php:210
+msgid "Products"
+msgstr "Produkte"
+
+#~ msgid ""
+#~ "TH Promo Panels is a simple plugin which helps you to make html panels "
+#~ "with your promo."
+#~ msgstr ""
+#~ "TH Promo Panels ist ein einfaches Plugin, das Ihnen hilft, HTML-Panels "
+#~ "mit Ihrer Promo zu erstellen."
+
+#~ msgid "Icon name"
+#~ msgstr "Iconnamen"
+
+#~ msgid ""
+#~ "By default the plugin used and needed the font awesome icon library (%s). "
+#~ "Choose one and copy the name in this field."
+#~ msgstr ""
+#~ "Standardmäßig verwendete und benötigte das Plugin die Font Awesome Icon "
+#~ "Library (%s). Wählen Sie einen aus und kopieren Sie den Namen in dieses "
+#~ "Feld."
+
+#~ msgid "New Panel"
+#~ msgstr "Neues Panel"
+
+#~ msgid "Edit Panel"
+#~ msgstr "Panel bearbeiten"
+
+#~ msgid "View Panel"
+#~ msgstr "Panel anzeigen"
+
+#~ msgid "All Panels"
+#~ msgstr "Alle Panels"
+
+#~ msgid "Panel updated."
+#~ msgstr "Panel aktualisiert."

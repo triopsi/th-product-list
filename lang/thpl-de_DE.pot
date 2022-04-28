@@ -1,0 +1,222 @@
+# Copyright (C) 2022 triopsi
+# This file is distributed under the same license as the TH Product List plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: TH Product List 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/thpl\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-28T07:52:49+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: thpl\n"
+
+#. Plugin Name of the plugin
+#: inc/thpl-types.php:55
+#: inc/thpl-types.php:57
+#: inc/thpl-types.php:58
+msgid "TH Product List"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://triopsi-hosting.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple plugin to present products individually in a product table."
+msgstr ""
+
+#. Author of the plugin
+msgid "triopsi"
+msgstr ""
+
+#: inc/thpl-duplicate-functions.php:60
+msgid "Duplicate this product"
+msgstr ""
+
+#: inc/thpl-duplicate-functions.php:60
+msgid "Duplicate"
+msgstr ""
+
+#: inc/thpl-duplicate-functions.php:178
+msgid "Post copy created."
+msgstr ""
+
+#: inc/thpl-post-metabox.php:39
+msgid "Details"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:69
+#: inc/thpl-types.php:213
+msgid "Price"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:86
+msgid "Price Suffix"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:90
+msgid "30 days"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:102
+#: inc/thpl-post-metabox.php:109
+#: inc/thpl-shortcode.php:169
+msgid "Order"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:105
+msgid "Button Text"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:122
+msgid "Order Url"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:126
+msgid "https://"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:141
+msgid "Atributes"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:156
+msgid "Edit"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:160
+msgid "Atrribute : Value |"
+msgstr ""
+
+#: inc/thpl-post-metabox.php:166
+msgid "Required fields"
+msgstr ""
+
+#: inc/thpl-shortcode.php:161
+msgid "30 Days"
+msgstr ""
+
+#: inc/thpl-types.php:56
+msgid "Product"
+msgstr ""
+
+#: inc/thpl-types.php:59
+#: inc/thpl-types.php:60
+msgid "Add New Product"
+msgstr ""
+
+#: inc/thpl-types.php:61
+msgid "New Product"
+msgstr ""
+
+#: inc/thpl-types.php:62
+msgid "Edit Product"
+msgstr ""
+
+#: inc/thpl-types.php:63
+msgid "View Product"
+msgstr ""
+
+#: inc/thpl-types.php:64
+msgid "All Products"
+msgstr ""
+
+#: inc/thpl-types.php:65
+msgid "Search Products"
+msgstr ""
+
+#: inc/thpl-types.php:66
+msgid "No Products found."
+msgstr ""
+
+#: inc/thpl-types.php:67
+msgid "No Products found in Trash."
+msgstr ""
+
+#: inc/thpl-types.php:97
+#: inc/thpl-types.php:111
+msgid "Product Categories"
+msgstr ""
+
+#: inc/thpl-types.php:98
+msgid "Product Category"
+msgstr ""
+
+#: inc/thpl-types.php:99
+msgid "Search Product categories"
+msgstr ""
+
+#: inc/thpl-types.php:100
+msgid "All Product categories"
+msgstr ""
+
+#: inc/thpl-types.php:101
+msgid "Parent Product Category"
+msgstr ""
+
+#: inc/thpl-types.php:102
+msgid "Parent Product Category:"
+msgstr ""
+
+#: inc/thpl-types.php:103
+msgid "Edit Product Category"
+msgstr ""
+
+#: inc/thpl-types.php:104
+msgid "Update Product Category"
+msgstr ""
+
+#: inc/thpl-types.php:105
+msgid "Add New Product Category"
+msgstr ""
+
+#: inc/thpl-types.php:106
+msgid "New Product Category Name"
+msgstr ""
+
+#: inc/thpl-types.php:107
+msgid "Separate Product categories with commas"
+msgstr ""
+
+#: inc/thpl-types.php:108
+msgid "Add or remove Product category"
+msgstr ""
+
+#: inc/thpl-types.php:109
+msgid "Choose from the most used Product categories"
+msgstr ""
+
+#: inc/thpl-types.php:110
+msgid "No Product category found."
+msgstr ""
+
+#: inc/thpl-types.php:139
+#: inc/thpl-types.php:140
+msgid "Product updated."
+msgstr ""
+
+#: inc/thpl-types.php:141
+msgid "Product published."
+msgstr ""
+
+#: inc/thpl-types.php:142
+msgid "Product saved."
+msgstr ""
+
+#: inc/thpl-types.php:143
+msgid "Product draft updated."
+msgstr ""
+
+#: inc/thpl-types.php:199
+#: inc/thpl-types.php:213
+msgid "Shortcode"
+msgstr ""
+
+#: inc/thpl-types.php:210
+msgid "Products"
+msgstr ""
