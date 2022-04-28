@@ -99,7 +99,7 @@ function thpl_sh( $atts ) {
 		$query_args['tax_query'] = array( // phpcs:ignore
 			array(
 				'taxonomy' => 'thpls_categories',
-				'field'    => 'name',
+				'field'    => 'slug',
 				'terms'    => $category,
 			),
 		);
@@ -110,6 +110,7 @@ function thpl_sh( $atts ) {
 
 	// Default Output.
 	$htmlout = '';
+	$o = '';
 
 	if ( $thpl_query->have_posts() ) {
 		ob_start();
@@ -188,7 +189,7 @@ function thpl_get_output_list( $thpl_query, $post, $options ) {
 			$htmlout .= $body_thpl;
 			$htmlout .= '<div class="d-flex justify-content-center mt-3 mb-4">';
 			$htmlout .= '<span class="text-muted">ab</span>';
-			$htmlout .= '<span class="price h1 mb-0 text-triopsi">' . number_format( $thpl_price, 2, ',' ) . '&nbsp;€</span>';
+			$htmlout .= '<span class="price h1 mb-0 text-triopsi">' . number_format( $thpl_price, 2, ',', '.' ) . '&nbsp;€</span>';
 			$htmlout .= '<span class="h4 align-self-end mb-1 text-muted" style="font-size: small">&nbsp;/' . $thpl_price_suffix . '</span>';
 			$htmlout .= '</div>';
 			$htmlout .= '<div class="thpl-order-btn mt-1">';
