@@ -54,27 +54,30 @@ function thpl_sh( $atts ) {
 	extract(
 		shortcode_atts(
 			array(
-				'orderby'  => 'date',
-				'order'    => 'ASC',
-				'id'       => '',
-				'category' => '',
-				'columns'  => '',
-				'css'      => '',
+				'orderby'    => 'date',
+				'order'      => 'ASC',
+				'id'         => '',
+				'category'   => '',
+				'columns'    => '',
+				'css'        => '',
+				'css_header' => '',
 			),
 			$atts
 		)
 	);
 
-	$order    = ( strtolower( $order ) === 'asc' ) ? 'ASC' : 'DESC';
-	$orderby  = ! empty( $orderby ) ? $orderby : 'date';
-	$id       = ! empty( $id ) ? $id : '';
-	$category = ! empty( $category ) ? $category : '';
-	$columns  = ! empty( $columns ) ? $columns : 'col-md-4';
-	$css      = ! empty( $css ) ? $css : '';
+	$order      = ( strtolower( $order ) === 'asc' ) ? 'ASC' : 'DESC';
+	$orderby    = ! empty( $orderby ) ? $orderby : 'date';
+	$id         = ! empty( $id ) ? $id : '';
+	$category   = ! empty( $category ) ? $category : '';
+	$columns    = ! empty( $columns ) ? $columns : 'col-md-4';
+	$css        = ! empty( $css ) ? $css : '';
+	$css_header = ! empty( $css_header ) ? $css_header : '';
 
 	$options = array(
-		'columns' => $columns,
-		'css'     => $css,
+		'columns'    => $columns,
+		'css'        => $css,
+		'css_header' => $css_header,
 	);
 
 	// WP Query Parameters.
@@ -150,7 +153,7 @@ function thpl_get_output_list( $thpl_query, $post, $options ) {
 			$title_faq = $product->post_title;
 
 			// Get the body.
-			$body_faq = $product->post_content;
+			$body_thpl = $product->post_content;
 
 			// Get the Price.
 			$thpl_price = get_post_meta( $product->ID, '_thpl_price', true );
@@ -179,10 +182,10 @@ function thpl_get_output_list( $thpl_query, $post, $options ) {
 			$htmlout .= '<div class="th-product-in-list ' . $options['columns'] . ' mb-2">';
 			$htmlout .= '<div class="card shadow rounded">';
 			$htmlout .= '<div class="card-header text-center">';
-			$htmlout .= '<h4 class="th-product-title">' . esc_html( $title_faq ) . '</h4>';
+			$htmlout .= '<h4 class="th-product-title ' . $options['css_header'] . '">' . esc_html( $title_faq ) . '</h4>';
 			$htmlout .= '</div>';
 			$htmlout .= '<div class="card-body py-3">';
-			$htmlout .= $body_faq;
+			$htmlout .= $body_thpl;
 			$htmlout .= '<div class="d-flex justify-content-center mt-3 mb-4">';
 			$htmlout .= '<span class="text-muted">ab</span>';
 			$htmlout .= '<span class="price h1 mb-0 text-triopsi">' . number_format( $thpl_price, 2, ',' ) . '&nbsp;€</span>';

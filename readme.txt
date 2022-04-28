@@ -1,6 +1,6 @@
 === TH Product List ===
 Contributors: triopsi
-Donate link: https://www.paypal.me/triopsi
+Donate link: https://www.paypal.me/triopsihosting
 Tags: thpl, product, tabel, shortcode, post, site
 Requires at least: 5.3
 Tested up to: 5.9
@@ -52,5 +52,5 @@ Nothing.
 
 == Donations ==
 
-If you like the plugin, consider a donation to support further development. [Click here](https://www.paypal.me/triopsi)
+If you like the plugin, consider a donation to support further development. [Click here](https://www.paypal.me/triopsihosting)
  
